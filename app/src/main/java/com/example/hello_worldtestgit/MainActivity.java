@@ -8,6 +8,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //test Sync con github
+        //modifiche
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
