@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" tools:targetApi="o"/>
 
     <Button
         android:id="@+id/button"
@@ -28,6 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
+        android:onClick="sendMessage"
         android:text="@string/button_send"
         android:visibility="visible"
         app:layout_constraintBaseline_toBaselineOf="@+id/editText"
