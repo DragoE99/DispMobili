@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">La Mia Prima App</string>
+    <string name="button_send">Invia</string>
+    <string name="EditTextMessage">Inserire il testo</string>
+    <string name="EnterNumber">Numero di telefono</string>
+    <string name="Telephone_number">Numero</string>
+</resources>
