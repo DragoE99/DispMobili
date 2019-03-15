@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendMessage(View view){
-        EditText message_edittext = (EditText) findViewById(R.id.editText);
+        EditText message_edittext = findViewById(R.id.editText);
         String message = message_edittext.getText().toString();
-        message_edittext = (EditText) findViewById(R.id.PhoneNumber);
+        message_edittext = findViewById(R.id.PhoneNumber);
         String phNumber = message_edittext.getText().toString();
         Uri uri = Uri.parse("smsto:"+phNumber);
         Intent it = new Intent(Intent.ACTION_SENDTO, uri);
