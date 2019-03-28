@@ -12,7 +12,7 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/texttodo"
+            android:id="@+id/input_insert_todo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autofillHints="@string/EmptyTodo"
@@ -22,16 +22,17 @@
             tools:targetApi="o" />
 
         <Button
-            android:id="@+id/addtodobutton"
-            android:layout_width="wrap_content"
+            android:id="@+id/addTodoButton"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="onAddItem"
             android:text="@string/AddTodo" />
     </LinearLayout>
 
     <ListView
         android:id="@+id/list_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="5" />
 </LinearLayout>
