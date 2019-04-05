@@ -3,4 +3,6 @@
     <string name="TodoText">Insert new item</string>
     <string name="AddTodo">Add</string>
     <string name="EmptyTodo">Empty ToDo string</string>
+    <string name="ListButtonName">List</string>
+    <string name="GridButtonName">Grid</string>
 </resources>

@@ -11,6 +11,26 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+        <Button
+            android:id="@+id/ListButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ListButtonName" />
+
+        <Button
+            android:id="@+id/GridButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/GridButtonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
         <EditText
             android:id="@+id/texttodo"
             android:layout_width="wrap_content"
@@ -23,15 +43,16 @@
 
         <Button
             android:id="@+id/addtodobutton"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/AddTodo" />
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/list_view"
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="5" />
+        android:layout_height="wrap_content">
+    </FrameLayout>
 </LinearLayout>
